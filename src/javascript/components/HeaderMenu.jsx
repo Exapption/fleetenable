@@ -7,7 +7,7 @@
                     MobileView,
                 } from 'react-device-detect';
                 import { Header,Row,Col ,Tabs , Menu, Icon} from '../components/common/UIComponents';
-                import ImaginnovateLogo from '../../images/v-imaginnovate-logo/v-imaginnovate.png';
+                import ImaginnovateLogo from '../../images/v-fleetenable-logo/fleetenable.png';
                 import ImaginnovateLogoOnScroll from '../../images/onScrollLogo.png';
                 import menu from '../../images/menu.svg';
                 import { NavLink } from 'react-router-dom';

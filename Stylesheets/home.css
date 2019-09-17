@@ -166,17 +166,18 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .DesignDevelopDeliver {
-        font-size: 162px;
+        font-size: 80px;
         font-weight: 900;
     }
     .home-banner-content-text{
         font-size: 70px;
     }
     .home-banner-content-two-header, .home-banner-content-three-header{
-        font-size: 50px;
+        font-size: 45px;
     }
     .home-background{
         padding-top:8%;
         padding-bottom:3%;
     }
 }
+

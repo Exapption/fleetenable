@@ -1,0 +1,341 @@
+
+        .content{
+            width: 100%;
+            height: 500px;
+            background-image: url('../images/first-banner-content/first-banner-content.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+            text-align: center;
+            vertical-align: middle;
+            font-size:72px;
+            font-weight: normal;
+            line-height: 1.22;  
+            color:white;    
+        }
+        .content-mobile{
+            width: 100%;
+            background-image: url('../images/first-banner-content/first-banner-content.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: normal;
+            line-height: 1.22;  
+            color:white; 
+            display: inline-block;
+        }
+        .content-second{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            vertical-align: middle; 
+        }
+        .content-second-mobile{
+            width: 100%;
+            text-align: center;
+            vertical-align: middle; 
+        }
+        .content-second-heading{
+            padding-top: 26px;
+            padding-bottom: 26px;
+            font-size: 48px;
+            color:#2c3e50;
+        }
+        .content-second-mobile-heading{
+            padding-top: 13px;
+            padding-bottom: 13px;
+            font-size: 24px;
+            color:#2c3e50;
+        }
+        .content-industry-expertise{
+            margin-top: 16px;
+            margin-left: 0px;
+            padding-top: 6px;
+            padding-left: 60px;
+            background-image: url('../images/industryExpertise-Card-Background/industryExpertise-Card-Background.png');
+            background-size:cover;
+            // background-position: center; 
+        }
+        .content-industry-expertise-mobile{
+            background-image: url('../images/industryExpertise-Card-Background/industryExpertise-Card-Background.png');
+            background-size:contain;
+            // background-position: center; 
+        }
+        .content-p-tag{
+            padding-top: 8px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.3px;
+            color:#000;
+            text-align: center;
+            font-family: Lato;
+        }
+        .card-custom{
+            width: 360px; 
+            height: 335px;
+        }
+        .content-third{
+        // width: 100%;
+        //  height: 100%;
+            text-align: center;
+        // vertical-align: middle; 
+            background-image: url('../images/technologyCapabilities-Stripes/stripes-light-2.png');
+            background-size:cover;
+            //background-repeat: no-repeat;
+        }
+        .content-third-mobile{
+                text-align: center;
+                background-image: url('../images/technologyCapabilities-Stripes/stripes-light-2.png');
+                background-size:contain;
+        }
+        .content-third-cards{
+            width: 365px;
+            height: 225px;
+            margin:5px;
+            position: relative;
+        }
+        .content-third-card-img{
+            margin-top: 42px;
+        }
+        .content-third-card-img-title{
+            margin-top: 12px;
+            font-size: 24px;
+            align-content: center;
+            color: #ffffff;
+        }
+        .content-contact{
+            width: 100%;
+            height: 500px;
+            text-align: center;
+            vertical-align: middle; 
+            background-image: url('../images/contact/contact.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+            padding-bottom:5%;
+        }
+        .content-contact-heading{
+            padding-top: 26px;
+            padding-bottom: 35px;
+            font-size: 48px;
+            color:#ffffff;
+        }
+        .content-contact-elements{
+            font-size: 20px;
+            color: #ffffff;
+            text-align: left;
+        }
+        .content-contact-gutter{
+            padding:2%;
+        }
+        .card-header{
+            height:50px;
+            width:360px;
+            margin:-25px;
+            text-align: left;
+            padding:15px;
+            font-size: 14px;
+            background-color: #2c3e50;
+            color:#FFFF;
+        }
+        .card-header-mobile{
+            text-align: left;
+            padding:15px;
+            font-size: 14px;
+            background-color: #2c3e50;
+            color:#FFFF;
+        }
+        .content-startup-first{
+            position: relative;
+            width: 100%;
+            height: 216px;
+            background-color: #f2f2f2;
+        }
+        .content-startup-first-mobile{
+            width: 100%;
+            height: 100%;
+            background-color: #f2f2f2;
+            padding: 5%;
+        }
+        .content-startup-leftQuote{
+            padding-top:10%;
+        }
+        .content-startup-first-text{
+            font-family: Lato;
+            font-size: 24px;
+            line-height: 1.5;
+            letter-spacing: 0.5px;
+            text-align: center;
+            color: #2c3e50;
+            padding-top:4%;
+        }
+        .content-startup-second{
+            position: relative;
+            width: 99%;
+            background-color: #ffffff;
+            padding-left:90px;
+            padding-top:45px;
+            padding-bottom:90px;
+        }
+        .content-startup-second-mobile{
+            width: 100%;
+            background-color: #ffffff;
+            padding-left:45px;
+            padding-top:22px;
+            padding-bottom:45px;
+        }
+        .content-startup-engagement{
+            width: 99%;
+            text-align: center;
+            vertical-align: middle; 
+            background-image: url('../images/technologyCapabilities-Stripes/stripes-light-2.png');
+            background-size:cover;
+            background-repeat: no-repeat;
+            padding-top: 20px;
+            padding-bottom: 40px;
+        }
+        .content-startup-engagement-mobile{
+            width: 99%;
+            text-align: center;
+            vertical-align: middle; 
+            background-image: url('../images/technologyCapabilities-Stripes/stripes-light-2.png');
+            background-size:contain;
+            background-repeat: no-repeat;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .content-startup-card-custom .ant-card-body{
+            padding:0px;
+        }
+        .content-startup-card-header{
+            //position: relative;
+            height:198px;
+            width:100%;
+        
+            padding:10%;
+            color:#FFFF;
+        }
+        .content-startup-card-custom{
+            text-align: center!important;
+            width: 95%; 
+            height: 105%;
+        }
+        .content-startup-engagementPackage-text{
+            font-size: 14px;
+            line-height: 23px;
+            font-family: Lato;
+            letter-spacing: 0.3px;
+            text-align: left;
+            color: #2c3e50;
+            //padding-bottom: 50px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 5px;
+        }
+        .content-retail{
+            position: relative;
+            width: 100%;
+            padding:5%;
+        }
+        .content-retail-mobile{
+            width: 100%;
+            height: 100%;
+            padding: 5%;
+        }
+        .learn-more-button{
+            background-color: #ff5b30;
+            color:#ffffff;
+        }
+        .imExcited-button{
+            background-color: #ff5b30;
+            color:#ffffff;
+            border-color:#ff5b30;
+            width: 100px;
+            height: 40px!important;
+            font-family: Lato;
+        }
+        .ant-modal-footer{
+            display:none;
+            border-top : 0px;
+            padding:0px;
+            background-image:  url('../images/modal-bg.png');
+            background-position-x: -15px;
+        }
+        .ant-modal-body{
+            background-image:  url('../images/modal-bg.png');
+            background-position-x: -15px;
+        }
+        ul {
+            list-style-type: none;
+        }
+        .ant-tabs-nav .ant-tabs-tab-active {
+            color: #e7e00f;
+        }
+        .ant-layout-header{
+            height:auto;
+        }
+        .align-center{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .about-section-header{
+            font-size: 72px;
+            line-height: 70px;
+            padding-top: 150px;
+            //padding-bottom: 50px; 
+        }
+        .about-section-description{
+            display: inline-block;
+            font-size: 24px;
+            line-height: 26px;
+            text-align: center;
+            vertical-align: middle;
+            color: #41464F; 
+            //padding-left: 80px;
+            //padding-top: 50px;
+        }
+        .about-section-description-highlight{
+            color: #FC4D20;
+        }
+        .ant-tabs-ink-bar{
+            background-color: #f2f2f2;
+        }
+        .ant-tabs-nav-wrap{
+            background-color: #eeeded;
+            font-size: 24px;
+            color: #000000;
+        }
+        .ant-tabs-nav .ant-tabs-tab:active{
+            background-color: #eeeded;
+            font-size: 24px;
+            color: #000000;
+        }
+        .tab-content-span{
+            font-size: 24px;
+            text-align: left;
+            padding: 20px 40px;
+        }
+        .ant-tabs-nav .ant-tabs-tab{
+            margin: 0 50px 0 0;
+            padding: 12px 50px;
+        }
+        ant-tabs-nav-scroll > .ant-tabs-nav{
+            width: 50%important;
+        }
+        .inputDetails {
+            width: 100%;
+            outline: 2px solid white;
+        }
+        .address-contact{
+            text-align: left;
+            color:'#000000';
+            display: inline-block;
+            font-size: 1.2em;
+            line-height: 1.7em;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .autoFitImage{
+            max-width: 100%;
+            height: auto;
+        }

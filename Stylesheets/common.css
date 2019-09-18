@@ -133,11 +133,11 @@
   } */
   .menuDiv > li.active a{
       border-bottom: 1px solid ;
-      font-weight:600;
-      color: #986fff;
+      font-weight:500;
+      color: #7f5ece;
   } 
   .nav.menuDiv>li>a:focus,.nav.menuDiv>li>a:hover {
-      color:#986fff;
+      color:#7f5ece;
     /* text-decoration: none; */
       background-color: transparent !important;
   }

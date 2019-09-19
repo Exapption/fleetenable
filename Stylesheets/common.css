@@ -87,7 +87,7 @@
     padding-bottom: 5%;
   }
   .cardBoxShadow{
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 2px 2px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: -3px -2px 2px 0 rgba(0, 0, 0, 0.16), 0px 2px 2px 0 rgba(0, 0, 0, 0.26);
   }
   .cardHeader{
     background-color: #2c3e50;
@@ -414,7 +414,7 @@
 @media only screen and (min-width: 992px) {
  
   .block-content-two-header{
-      font-size: 50px;
+      font-size: 55px;
   }
   
 } 
@@ -423,7 +423,7 @@
 @media only screen and (min-width: 1200px) {
   
   .block-content-two-header{
-      font-size: 50px;
+      font-size: 55px;
   }
   
 }

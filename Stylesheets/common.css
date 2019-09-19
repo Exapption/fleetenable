@@ -45,6 +45,11 @@
   .paddingTwenty{
     padding: 20px;
   }
+
+  .paddingThirty{
+    padding: 30px;
+  }
+
   .paddingRFive{
     padding-right: 5px;
   }
@@ -77,8 +82,8 @@
     padding-left: 15%;
   }
   .paddingLRBFivePercent{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
     padding-bottom: 5%;
   }
   .cardBoxShadow{

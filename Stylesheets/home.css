@@ -227,3 +227,56 @@
     padding-top: 0px;
     padding-bottom: 20px;
 }
+
+.block1{
+    color:#123671;
+    font-family: 'Helvetica 45 Light';
+    font-weight: 500;
+    font-size: 82px;
+    letter-spacing: 2px;
+    padding:1%;
+    padding-top:8%;
+    padding-bottom: 1.5%;
+}
+
+.block2{
+    color:#123671;
+    font-family:'Helvetica Neue Bold';
+    font-weight:normal;
+    font-size: 82px;
+    letter-spacing: 3px;
+    padding:1%;
+    padding-bottom:8%;
+}
+
+
+@media only screen and (min-width: 768px){
+    .block1{
+        font-size: 82px;
+    }
+    .block2{
+        font-size: 82px;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .block1{
+        font-size: 45px;
+    }
+    .block2{
+        font-size: 45px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { 
+    .block1{
+        font-size: 60px;
+    }
+    .block2{
+        font-size: 60px;
+    }
+   
+}

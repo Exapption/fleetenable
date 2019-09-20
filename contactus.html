@@ -8,7 +8,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-67064281-1');
     </script>
     <title>FleetEnable</title>
@@ -35,7 +34,13 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/10.0.2/js/utils.js"></script>
     <link rel="stylesheet" href="./Stylesheets/contactus.css">
     <link rel="stylesheet" href="./Stylesheets/common.css">
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <style>
+        .form-group label{
+            font-weight: 200;
+            font-size:13px;
+        }
+    </style>
 </head>
 
 <body>
@@ -55,6 +60,7 @@
             <div class="collapse navbar-collapse" id="navbar-collapse-main">
                 <ul class="nav navbar-nav navbar-right menuDiv snip1217">
                     <li><a href="./index.html">Home</a></li>
+                    <li><a href="./features.html">Features</a></li>
                     <li><a href="./pricing.html">Pricing</a></li>
                     <li class="active"><a href="./contactus.html">Contact us</a></li>
                 </ul>
@@ -71,7 +77,106 @@
                 </div>
             </div>
         </div>
-        <div class="row box-shadow">
+    </div>
+    <div class="container-fluid">
+            <div class='row textAlignCenter' style='background-color: #ededed; padding:2%;font-size:1.2em'>
+                    <div class='col-sm-6'>
+                        <div class='address-contact'>
+                            <strong style='font-size: 20px;padding-bottom:1%'>United States</strong>
+                            <br />
+                            <a style="text-decoration: none;color: #123671;font-weight: bold;" href='http://maps.google.com/?q=36.371231, -94.208946' target='_blank'>  Bentonville, Arkansas <img
+                                    src='./images/addressImage.png' width='12' height='20'
+                                    style='padding-bottom:5px; color:#FF0000' /></a>
+                        </div>
+                    </div>
+                    <div class='col-sm-6'>
+                        <div class='address-contact'>
+                            <strong style='font-size: 20px;padding-bottom:1%'>India</strong>
+                            <br />
+                            <a style="text-decoration: none;color: #123671;font-weight: bold;" href='http://maps.google.com/?q=17.726244,83.306480' target='_blank'> Visakhapatnam, Andhra Pradesh <img
+                                    src='./images/addressImage.png' width='12' height='20'
+                                    style='padding-bottom:5px; color:#FF0000' /></a>
+                        </div>
+                    </div>
+            </div>
+    </div>
+    
+    
+    <div class="container-fluid div-partners contact-bg color-white " id="contact">
+        <h2 class="text-align line-bottom ">Let's Get Started</h2>
+        <div class="container ">
+            <div class="row" id="contact-details" name="contact-details">
+                <form role="form" id="contact-form">
+                    <div class="row ">
+                        <!--<div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6 row-button">-->
+                            <!--Do you have an Ecommerce store?-->
+                            <!--<label>-->
+                            <!--<img src="assets/radio_inactive.png" onclick="toggleUrl('yes')" id="yes" width="15"> Yes-->
+                        <!--</label>-->
+                            <!--<label>-->
+                            <!--<img src="assets/radio_active.png" onclick="toggleUrl('no')" width="15" id="no"> No-->
+                        <!--</label>-->
+                        <!--</div>-->
+                        <!--<div class="form-group col-xs-12 col-sm-6 col-md-6 col-lg-6">-->
+                            <!--<input type="text " class="form-control form-inputs" id="store_url" placeholder="Website URL ">-->
+                        <!--</div>-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <label>Name <sup>*</sup></label>
+                                            <input type="text " class="form-control form-inputs " id="name" placeholder="Enter Name " required>
+                                            
+                                    </div>
+                            </div>
+                            <div class="col-lg-6">
+                                    <div class="form-group">
+                                            <label>Phone <sup>*</sup></label>
+                                            <input type="tel" class="form-control form-inputs" placeholder='Phone No.' id="phone" required>
+                                            
+                                        </div>
+                            </div>
+                            <div class="col-lg-6">
+                            <div class="form-group"  >
+                                 <label>Package</label>
+                                <select name="package" id="package" class="form-control form-inputs">
+                                    <!-- <option value="">-- Select Package--</option> -->
+                                    <option value="starter">Starter</option>
+                                    <option value="silver">Silver</option>
+                                    <option value="gold">Gold</option>
+                                    <option value="enterprise">Enterprise</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                    <label>Email <sup>*</sup></label>
+                                <input type="email" class="form-control form-inputs " id="email" placeholder="Email " pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                              
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div class="form-group">
+                                <label>Description <sup>*</sup></label>
+                                <textarea class="form-control form-inputs " rows="4 " placeholder="Please share details about your business" id="projectDescription" style="padding-bottom:0px;height: 180px; " required></textarea>
+                                
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 formbtn-space text-right" style="margin-top: 10px">
+                                    <button type="submit"  class="btn btn-theme color-black">Submit</button>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="row  ">
+                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <!-- <div class="row box-shadow">
             <div class="col-sm-6 ">
                 <form id="contact-form">
                     <h3>Contact Us</h3>
@@ -85,7 +190,7 @@
                             <input type="text" placeholder='Email' class="form-control" id="email" required>
                         </div>
                         <div class='col-sm-6'>
-                            <input type="tel" class="form-control" placeholder='Phone No.' id="phone" required>
+                           
                         </div>
                     </div>
                     <div class='row' style='padding-left:2%;padding-right:2%;padding-bottom:2%;'>
@@ -104,7 +209,7 @@
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.39020811464!2d83.3042913148811!3d17.726243987876373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDQzJzM0LjUiTiA4M8KwMTgnMjMuMyJF!5e0!3m2!1sen!2sin!4v1568731884322!5m2!1sen!2sin"
                     width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
-        </div>
+        </div> -->
         <div class="modal fade" id="displayModal" class='contact-modal' role="dialog">
             <div class="modal-dialog modal-sm">
                 <div class="modal-content">
@@ -117,32 +222,13 @@
                     <div class="modal-body">
 
                     </div>
-                    <div class="modal-footer">
+                    <!-- <div class="modal-footer">
                         <button type="submit" class="btn btn-default" data-dismiss="modal">Close</button>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
-        <div class='row textAlignCenter' style='background-color: #ededed; padding:2%;font-size:1.2em'>
-            <div class='col-sm-6'>
-                <div class='address-contact'>
-                    <strong style='font-size: 20px;padding-bottom:1%'>United States</strong>
-                    <br />
-                    Austin, TX <a href='http://maps.google.com/?q=36.0658611,-94.1558895' target='blank'><img
-                            src='./images/addressImage.png' width='12' height='20'
-                            style='padding-bottom:5px; color:#FF0000' /></a>
-                </div>
-            </div>
-            <div class='col-sm-6'>
-                <div class='address-contact'>
-                    <strong style='font-size: 20px;padding-bottom:1%'>India</strong>
-                    <br />
-                    Visakhapatnam, Andhra Pradesh <a href='http://maps.google.com/?q=17.726244,83.306480' target='blank'><img
-                            src='./images/addressImage.png' width='12' height='20'
-                            style='padding-bottom:5px; color:#FF0000' /></a>
-                </div>
-            </div>
-        </div>
+       
         <div class='row about-contact'>
             <div class='col-sm-12 textAlignCenter'>
                 <div class='row'>
@@ -169,7 +255,7 @@
                         <img src='./images/mail.svg' />
                     </div>
                     <div class='col-sm-2 col-xs-7' style='text-align: left;margin-left:-5%'>
-                        <div>digital@fleetenable.com</div>
+                        <div>sales@fleetenable.com</div>
                     </div>
                     <div class='col-sm-3 col-xs-1'></div>
                 </div>
@@ -200,9 +286,8 @@
     </div>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/8.4.7/js/intlTelInput.js'></script>
     <script type='text/javascript'>
-
         window.onload = function () {
-            emailjs.init("user_xgWRAmaASIpsgcXNeImjL");
+            emailjs.init("user_JWFUVwdUNr6GvSgzyco7H");
             $("#phone").intlTelInput({
                 defaultCountry: "auto",
                 geoIpLookup: function (callback) {
@@ -216,41 +301,66 @@
                 //onlyCountries: ['us', 'gb', 'ch', 'ca', 'do'],
                 preferredCountries: ['us', 'in']
             });
-
         }
-
     </script>
     <script type="text/javascript">
 
+        function validateEmail(email) {
+            var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        }
         $('#contact-form').on('submit', function (e) {
             e.preventDefault();
-            emailjs.send("default_service", "imaginnovate", {
-                project: document.getElementById("projectDescription").value,
-                name: document.getElementById("name").value,
-                email: document.getElementById("email").value,
-                phone: document.getElementById("phone").value
-            });
-            $('#displayModal .modal-body').text('Thank you for your interest.');
-            $('#displayModal').modal('show');
-            $('#contact-form')[0].reset();
+            
+
+            try {
+                var name = $("#contact-form #name").val();
+                var email = $("#contact-form #email").val();
+                var phone = $("#contact-form #phone").val();
+                var b_details = $("#contact-form #projectDescription").val();
+                var package = $("#contact-form #package").val();
+                 
+                if (name.length == 0) {
+                    alert("Please enter your name.");
+                    return;
+                }
+
+                if (email.length == 0 || !validateEmail(email)) {
+                    alert("Please enter valid email address.");
+                    return;
+                }
+
+                //$("#contact-form").html(' Thank you for contacting us, we will reach you shortly.');
+                emailjs.send("gmail", "retainity", {
+                    "name": name,
+                    "email": email,
+                    "phone": phone,
+                    "b_details": b_details,
+                    "package": package
+                });
+                console.log(name,email,phone,b_details,package);
+                $('#displayModal .modal-body').text('Thank you for your interest.');
+                $('#displayModal').modal('show');
+                setTimeout(function() {$('#displayModal').modal('hide');}, 4000);
+                $('#contact-form')[0].reset();
+
+            } catch (e) {
+                console.log(e);
+            }
+            
+           
         });
-
-        $("#send1").click(function () {
-            return;
-            let result = $("#contact")[0].valid();
-            console.log(result);
-            emailjs.send("default_service", "imaginnovate", {
-                project: document.getElementById("projectDescription").value,
-                name: document.getElementById("name").value,
-                email: document.getElementById("email").value,
-                phone: document.getElementById("phone").value
-            });
-            $('#displayModal .modal-body').text('Thank you for your interest.');
-
+        $(function(){
+            var urlParams = new URLSearchParams(window.location.search);
+            p=urlParams.get('p')
+            //console.log(urlParams.get());
+            if(p){
+                document.getElementById("package").value=p;
+            }else{
+                console.log("undefined");
+            }
         });
-
-        /* $(function(){
-           $(document).scroll(function () {
+         /*  $(document).scroll(function () {
              var $nav = $(".navbar-fixed-top");
              $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
              if(!window.matchMedia('(max-width: 600px)').matches){
@@ -286,3 +396,4 @@
 </body>
 
 </html>
+

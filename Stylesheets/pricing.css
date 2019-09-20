@@ -127,3 +127,15 @@
 /*    top: 5px;*/
 /*    left: -5px;*/
 /*}*/
+
+.package-body {
+    height: 470px;
+}
+
+.package-try-now {
+    text-align: center;
+    bottom: 0px;
+    position: absolute;
+    padding-bottom: 10px;
+    left: 35%;
+}

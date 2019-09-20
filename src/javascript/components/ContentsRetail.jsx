@@ -115,7 +115,7 @@
                             <div style={{color:'#2c3e50',fontSize:12}}>
                             Customer journey across the path to purchase is critical in the 
                             retail / ecommerce space. We work with you to define data points
-                            to capture customer behavior to help completing the sale and
+                            to capture Customer behavior to help completing the sale and
                             simplify remarketing.
                             </div>
                             </div>
@@ -133,8 +133,8 @@
                             <div style={{padding:5}}>
                             <div style={{color:'#ffffff',fontSize:12}}>
                                 <div>
-                                <b>Our Retainity</b> platform allows businesses to track customer 
-                                journeys across channels and excite them with conextual
+                                <b>Our Retainity</b> platform allows businesses to track Customer
+                                journeys across channels and excite them with contextual
                                 message at each touch point. 
                                 </div>
                                 <div>
@@ -244,7 +244,7 @@
                             <div style={{color:'#2c3e50',fontSize:20}}>
                             Customer journey across the path to purchase is critical in the 
                             retail / ecommerce space. We work with you to define data points
-                            to capture customer behavior to help completing the sale and
+                            to capture Customer behavior to help completing the sale and
                             simplify remarketing.
                             </div>
                             </div>
@@ -263,8 +263,8 @@
                             <div>
                             <div style={{color:'#ffffff',fontSize:20}}>
                                 <div>
-                                <b>Our Retainity</b> platform allows businesses to track customer 
-                                journeys across channels and excite them with conextual
+                                <b>Our Retainity</b> platform allows businesses to track Customer
+                                journeys across channels and excite them with contextual
                                 message at each touch point. 
                                 </div>
                                 <div>

@@ -348,7 +348,7 @@
     text-decoration: none;
     display: inline-block;
   }
-  .menuDiv a:before,
+
   .menuDiv a:after {
     height: 2px;
     position: absolute;

@@ -56,7 +56,7 @@
                     <Row type='flex'>
                     <Col md={24}>
                     <div className='about-section-description align-center' style={{paddingLeft:'7%', paddingRight:'5%', paddingTop:20}}>
-                    We make sure that we deliver amazing experiences  at every customer touch point  and that's how we define <br/> <label className='about-section-description-highlight'>Exceptional Customer Experience.</label>
+                    We make sure that we deliver amazing experiences  at every Customer touch point  and that's how we define <br/> <label className='about-section-description-highlight'>Exceptional Customer Experience.</label>
                     </div>
                     </Col>
                     </Row>
@@ -67,7 +67,7 @@
                     <Tabs defaultActiveKey="1">
                         <TabPane tab="2013" key="1" >
                         <div className='tab-content-span'>
-                        <label className='about-section-description-highlight'>Inspired by technology</label> and <label className='about-section-description-highlight'>motivated by the possibilities</label> of how technology can be applied to solve real world problems, Imaginnovate was formed. We started our journey with <label className='about-section-description-highlight'>one great customer</label>
+                        <label className='about-section-description-highlight'>Inspired by technology</label> and <label className='about-section-description-highlight'>motivated by the possibilities</label> of how technology can be applied to solve real world problems, Imaginnovate was formed. We started our journey with <label className='about-section-description-highlight'>one great Customer</label>
                         </div>
                         </TabPane>
                         <TabPane tab="2014" key="2">
@@ -77,7 +77,7 @@
                         </TabPane>
                         <TabPane tab="2015" key="3">
                         <div className='tab-content-span'>
-                        Learning from our high and low points, our internal processes were developed. We are proud to say that in the past two years we have built a strong technology team and happy customers that have long term relations with us.  <label className='about-section-description-highlight'>We now dream big</label>.
+                        Learning from our high and low points, our internal processes were developed. We are proud to say that in the past two years we have built a strong technology team and happy Customers that have long term relations with us.  <label className='about-section-description-highlight'>We now dream big</label>.
                         </div>
                         </TabPane>
                         <TabPane tab="2016" key="4">

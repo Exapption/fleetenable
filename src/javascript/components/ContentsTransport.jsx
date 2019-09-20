@@ -76,12 +76,12 @@
                         <div>
                         <div style={{color:'#3c6cbc',fontSize:18,fontWeight:bold}}>Customer Experience</div>
                         <div style={{color:'#2c3e50',fontSize:12}}>
-                        At the end of the journey is the customer and businesses are inves-
+                        At the end of the journey is the Customer and businesses are inves-
                         ting to make sure the overall experience is exceptional for the 
-                        customer. Digitization has disrupted the expectations of the end 
-                        customer enabling them to track shipments in real-time and the
+                        Customer. Digitization has disrupted the expectations of the end
+                        Customer enabling them to track shipments in real-time and the
                         ability to reach support from anywhere and anytime. Our Retainity
-                        platform allows businesses to provide exceptional customer
+                        platform allows businesses to provide exceptional Customer
                         experience by integrating various touch points and providing 
                         multiple channels for communication.
                         </div>
@@ -179,12 +179,12 @@
                     <div>
                     <div style={{color:'#3c6cbc',fontSize:36,fontWeight:bold}}>Customer Experience</div>
                     <div style={{color:'#2c3e50',fontSize:20}}>
-                    At the end of the journey is the customer and businesses are inves-
+                    At the end of the journey is the Customer and businesses are inves-
                     ting to make sure the overall experience is exceptional for the 
-                    customer. Digitization has disrupted the expectations of the end 
+                    Customer. Digitization has disrupted the expectations of the end
                     customer enabling them to track shipments in real-time and the
                     ability to reach support from anywhere and anytime. Our Retainity
-                    platform allows businesses to provide exceptional customer
+                    platform allows businesses to provide exceptional Customer
                     experience by integrating various touch points and providing 
                     multiple channels for communication.
                     </div>

@@ -119,3 +119,130 @@ background-image: url(../images/header-bg/bottom-bg.png);
 .country-list{
     color:#000 !important;
 }
+
+.common-FormField {
+    --error-red: #FF505C;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-tap-highlight-color: transparent;
+    margin-top:10px;
+    }
+    
+    .common-FormField input {
+      -webkit-box-ordinal-group: 3;
+      -webkit-order: 2;
+      -moz-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      border: none;
+      outline: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      width: 100%;
+      font-size: 18px;
+      line-height: 28px;
+      font-weight: 400;
+      font-weight: 400;
+      font-weight: var(--font-weight-normal);
+      background: none;
+      color: #3A4554;
+      color: #3A4554;
+      color: var(--#c1bfbf100);
+      border-bottom: 2px solid #c1bfbf;
+      border-bottom: 2px solid #c1bfbf;
+
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .common-FormField select {
+        padding-right: 16px;
+        background-image: url(../images/select-arrow.svg);
+        -moz-background-size: 12px 7px;
+        background-size: 12px 7px;
+        background-repeat: no-repeat;
+        background-position: right center;
+        cursor: pointer;
+    }
+    .common-FormField select {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        outline: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        font-weight: 400;
+        font-weight: var(--font-weight-normal);
+        background: none;
+        color: #3A4554;
+        color: #3A4554;
+        color: var(#3A4554);
+        border-bottom: 2px solid #c1bfbf;
+        border-bottom: 2px solid #c1bfbf;
+        border-bottom: 2px solid var(#c1bfbf);
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .common-FormField textarea {
+        height: 30px;
+        resize: vertical;
+        
+    }
+
+
+    .common-FormField textarea {
+        -webkit-box-ordinal-group: 3;
+        -webkit-order: 2;
+        -moz-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+        order: 2;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border: none;
+        outline: none;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        width: 100%;
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 400;
+        font-weight: 400;
+        font-weight: var(--font-weight-normal);
+        background: none;
+        color: #3A4554;
+        color: #3A4554;
+        color: var(#3A4554);
+        border-bottom: 2px solid #c1bfbf;
+        border-bottom: 2px solid #c1bfbf;
+        border-bottom: 2px solid var(#c1bfbf);
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }

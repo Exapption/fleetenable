@@ -263,9 +263,11 @@
 @media only screen and (max-width: 600px) {
     .block1{
         font-size: 45px;
+        color:#123671;
     }
     .block2{
         font-size: 45px;
+        color:#123671;
     }
 }
 

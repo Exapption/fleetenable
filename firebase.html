@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src = "https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+<script>
+// Set the configuration for your app
+// TODO: Replace with your project's config object
+var config = {
+  apiKey: "AIzaSyBJ9uwJbrsjRkUGyChF75p6Z4eyMy-qnXM",
+  authDomain: "fieldsence.firebaseapp.com",
+  databaseURL: "https://fieldsence.firebaseio.com/",
+  storageBucket: "bucket.appspot.com"
+};
+firebase.initializeApp(config);
+
+// Get a reference to the database service
+//var database = firebase.database();
+var ref = firebase.database().ref();                           
+ref.on("value", function(snapshot){
+     data = snapshot.val();
+     for(i=0;i<data['users'].length;i++){
+        var object = data['users'][i];
+        console.log(object.company);
+     }
+    document.getElementById("output").innerHTML = data;
+});
+console.log(ref);
+</script>
+
+</head>
+<body>
+<div id="output">
+
+</div>
+
+
+</body>
+</html>

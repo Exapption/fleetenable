@@ -210,7 +210,6 @@ background-image: url(../images/header-bg/bottom-bg.png);
     }
 
     .common-FormField textarea {
-        height: 30px;
         resize: vertical;
         
     }

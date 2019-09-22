@@ -3,12 +3,13 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67064281-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133686486-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'UA-67064281-1');
+
+        gtag('config', 'UA-133686486-1');
     </script>
     <title>FleetEnable</title>
     <meta
@@ -304,7 +305,6 @@
         }
     </script>
     <script type="text/javascript">
-
         function validateEmail(email) {
             var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
             return re.test(email);
@@ -312,7 +312,6 @@
         $('#contact-form').on('submit', function (e) {
             e.preventDefault();
             
-
             try {
                 var name = $("#contact-form #name").val();
                 var email = $("#contact-form #email").val();
@@ -328,12 +327,10 @@
                     alert("Please enter your name.");
                     return;
                 }
-
                 if (email.length == 0 || !validateEmail(email)) {
                     alert("Please enter valid email address.");
                     return;
                 }
-
                 //$("#contact-form").html(' Thank you for contacting us, we will reach you shortly.');
                 emailjs.send("gmail", "retainity", {
                     "name": name,
@@ -351,7 +348,6 @@
                 $('#displayModal').modal('show');
                 setTimeout(function() {$('#displayModal').modal('hide');}, 4000);
                 $('#contact-form')[0].reset();
-
             } catch (e) {
                 console.log(e);
             }
@@ -404,4 +400,3 @@
 </body>
 
 </html>
-

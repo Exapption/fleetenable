@@ -59,7 +59,10 @@
             $("#output").prepend('<div class="card fleetuser" id="card' + key + '"><div class="card-body"><span class="capitalize name" id="name' + key + '">' + (childData.name) + '</span> from <span class="capitalize company" id="company' + key + '">' + (childData.company) + '</span> has joined at ' + d.toLocaleString("en-US") + '</div></div>');
             //$("#coolDiv").animate({"left":"0px", "slow");
             findLength();
-            notifyMe("Hi "+childData.name+", thank you for visiting our booth.")
+
+            //$.notify("Hi "+childData.name+", thank you for visiting our booth.");
+            $.notify("Hi " + childData.name + ", thank you for visiting our booth.", "info");
+            
         });
 
         userDataRef.on("child_changed", function (data) {
@@ -115,6 +118,9 @@
             // want to be respectful there is no need to bother them any more.
         }
 
+        function notify() {
+            $.notify("Hi vinod, thank you for visiting our booth.","info",{position:'top left'});
+        }
 
 
     </script>
@@ -158,7 +164,7 @@
             </div>
             <div class="col-lg-4" style="text-align: center">
                 <div id="user_count" style="text-align: center;font-size:100px"></div>
-                <img src="./images/v-fleetenable-logo/fleetenable.png" width="214px" height="44px" />
+                <img src="./images/v-fleetenable-logo/fleetenable.png" width="214px" height="44px" onClick="notify()" />
             </div>
         </div>
 
@@ -168,8 +174,13 @@
 
     <img id="loading" alt="" src="./images/loder.gif" />
 
+
+
 </body>
 
-<!-- <script src="scripts/notifications.js"></script> -->
+<script src="scripts/notify.js"></script>
+<script>
+     $.notify.defaults({ position: 'left bottom' })
+</script>
 
 </html>

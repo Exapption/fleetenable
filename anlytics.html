@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>FleetEnable</title>
+    <meta
+        content='Enhance your Last Mile Delivery experience #deliverbetter.All the tools you need for a better last mile delivery experience.Complete platform with features to dispatch, manage, collaborate and analyze which enable your teams to provide exceptional experience to your Customers.'
+        name='description'>
+    <meta content='FleetEnable team' name='author'>
+    <meta content='deliver better, deliver better service,fast delivery,dispatch order, manage order' name='keywords'>
+    <link rel="stylesheet" href="./Stylesheets/bootstrap.min.css">
+    <script src="scripts/jquery-3.4.1.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico" />
+    <script>
+        // Set the configuration for your app
+        // TODO: Replace with your project's config object
+        var config = {
+            apiKey: "AIzaSyBJ9uwJbrsjRkUGyChF75p6Z4eyMy-qnXM",
+            authDomain: "fieldsence.firebaseapp.com",
+            databaseURL: "https://fieldsence.firebaseio.com/",
+            storageBucket: "bucket.appspot.com"
+        };
+        firebase.initializeApp(config);
+
+        // Get a reference to the database service
+        //var database = firebase.database();
+        // var ref = firebase.database().ref();                           
+        // ref.on("value", function(snapshot){
+        //      data = snapshot.val();
+        //      for(i=0;i<data['users'].length;i++){
+        //         var object = data['users'][i];
+        //         console.log(object.company);
+        //      }
+        //     document.getElementById("output").innerHTML = data;
+        // });
+        // console.log(ref);
+        let i = 0;
+        var userDataRef = firebase.database().ref('users').orderByKey();
+        userDataRef.once("value").then(function (snapshot) {
+            snapshot.forEach(function (childSnapshot) {
+                var key = childSnapshot.key;
+                var childData = childSnapshot.val();
+                if ($("#card" + key).length == 0) {
+                    $i++;
+                    var d = new Date(childData.timeInMillis);
+                    $("#output").prepend('<div class="card fleetuser" id="card' + key + '"><div class="card-body"><span class="capitalize name">' + (childData.name) + '</span> from <span class="capitalize company">' + (childData.company) + '</span> has joined at ' + d.toLocaleString("en-US") + '</div></div>');
+                }
+
+            });
+            $("#loading").hide();
+        });
+
+        userDataRef.on("child_added", function (data, prevChildKey) {
+            var key = data.key;
+            var childData = data.val();
+            var d = new Date(childData.timeInMillis);
+
+            $("#output").prepend('<div class="card fleetuser" id="card' + key + '"><div class="card-body"><span class="capitalize name" id="name' + key + '">' + (childData.name) + '</span> from <span class="capitalize company" id="company' + key + '">' + (childData.company) + '</span> has joined at ' + d.toLocaleString("en-US") + '</div></div>');
+            //$("#coolDiv").animate({"left":"0px", "slow");
+            findLength();
+        });
+
+        userDataRef.on("child_changed", function (data) {
+            var key = data.key;
+            var childData = data.val();
+            if ($("#card" + key).length > 0) {
+                $("#user_count").html(i);
+                $("#name" + key).html(childData.name);
+                $("#company" + key).html(childData.company);
+            }
+        });
+
+        userDataRef.on("child_removed", function (data) {
+            $("#card" + data.key).remove();
+            findLength();
+        });
+
+        function findLength() {
+            var list_count = $(".fleetuser").length;
+            $("#user_count").html(list_count);
+        }
+    </script>
+    <style>
+        .capitalize {
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        .card {
+            margin-top: 10px
+        }
+
+        #loading {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            z-index: 1104;
+        }
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133686486-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-133686486-1');
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div id="output"></div>
+            </div>
+            <div class="col-lg-4" style="text-align: center">
+                <div id="user_count" style="text-align: center;font-size:100px"></div>
+                <img src="./images/v-fleetenable-logo/fleetenable.png" width="214px" height="44px" />
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <img id="loading" alt="" src="./images/loder.gif" />
+
+</body>
+
+
+
+</html>

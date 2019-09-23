@@ -62,6 +62,7 @@
 
             //$.notify("Hi "+childData.name+", thank you for visiting our booth.");
             $.notify("Hi " + childData.name + ", thank you for visiting our booth.", "info");
+            
         });
 
         userDataRef.on("child_changed", function (data) {
@@ -118,7 +119,7 @@
         }
 
         function notify() {
-            $.notify("Hi vinod, thank you for visiting our booth.", "info");
+            $.notify("Hi vinod, thank you for visiting our booth.","info",{position:'top left'});
         }
 
 
@@ -178,5 +179,8 @@
 </body>
 
 <script src="scripts/notify.js"></script>
+<script>
+     $.notify.defaults({ position: 'left bottom' })
+</script>
 
 </html>

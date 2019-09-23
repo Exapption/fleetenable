@@ -149,5 +149,6 @@
 .package-plus-text{
     font-size: 25px;
     text-align: center;
-    margin-left: -110px;
+    /* margin-left: -110px; */
+    text-align:left;
 }

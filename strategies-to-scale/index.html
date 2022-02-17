@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Strategies to Scale</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,900&family=Montserrat:wght@200;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400&display=swap" rel="stylesheet">
+  <script>
+    $(document).ready(function () {
+      $("#success-alert").hide();
+      $("#requestDemoSchedule").on('submit', function (event) {
+        event.preventDefault();
+                var requestMessage = 'Phone: '+ $('#inputPhone').val() + ', ' + 'Message: ' + $('#inputMessage').val() + ', ' + 'Title: ' + $('#inputTitle').val() + ', ' + 'Company: ' + $('#inputCompany').val();
+                const templateParams = {
+                    message: requestMessage,
+                    from_email: $('#inputEmail').val(),
+                };
+                emailjs.send('service_3xtujar','template_fbcrd09', templateParams)
+                    .then(function() {
+                      $("#myModal").modal('show');
+                        //$("#responseType").html('<i class="far fa-check-circle fa-3x" style="color: green"></i>');
+                        $("#msg").html('Request sent successfully.');
+                        $("#email").val('');
+                        $("#note").val('');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+      });
+
+      $(".scroll-top").click(function () {
+        $("html, body").animate({
+          scrollTop: 0
+        }, "slow");
+        return false;
+      });
+
+      $("#scrollTo").click(function () {
+        $('html, body').animate({
+          scrollTop: $(".final-mile").offset().top
+        }, 2000);
+      });
+
+    });
+  </script>
+</head>
+<style>
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    p{        
+        line-height: 30px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    ul li {
+        line-height: 30px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .mTop2{
+        margin-top: 2em;
+    }
+    .mTop1{
+        margin-top: 1em;
+    }
+    label {
+        margin: 10px 0;
+    }
+    .alertMsg
+      {
+      display: none;
+      padding: 20px;
+      border: 1 px solid;
+      background: #607AD6;
+      color: #FFFFFF;
+      }
+</style>
+<body>
+<div class="container-fluid" style="padding-left: 0px; padding-right: 0px">
+    <div style="text-align: center"> <!-- style="background-color: #FFFFFF; filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));" -->
+    <a href="https://fleetenable.com"><img src="../assets/img/fleetlogo.svg"/></a>
+    </div>
+    <div class="container font-poppins mTop1">
+    <h1 style="text-align: center">Strategies to Scale:</h1>
+    <h3 style="text-align: center">Building Your Final Mile Business Through Smart Technology Adoption</h3>
+    <p class="font-poppins">
+    Do you feel like you’ve left money on the table in recent months due to an increase in order volume and consumer expectations? If so, you’re in the right place. Download our free white paper and discover steps you can take to scale your business as you look ahead.
+    </p>
+    <div class="mTop2" style="width: 100%; height: 5px; background-color: #ffba07; border-radius: 4px"></div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mTop2" style="background-color: #607AD6; color: #FFFFFF; padding: 3px 0px 15px 18px; border-radius: 4px">
+    <h1 style="color: #ffba07">What's Inside</h1>
+    <ul style="text-decoration: none; width: 100%; padding-left: 6em; line-height: 1.5em">
+    <li>An introduction of recent changes to our supply chain and why final mile delivery is in a time of rapid acceleration</li>
+    <li>Stats you should know that are shifting trends in the final mile industry</li>
+    <li>How to future-proof your final mile business</li>
+    <li>Common challenges final mile businesses face and how you can solve them</li>
+    </ul>
+    </div>
+    <div style="text-align: center;">
+    <a href="https://cdn2.hubspot.net/hubfs/20851400/Building%20Your%20Final%20Mile%20Business%20Through%20Smart%20Technology%20Adoption.pdf" target="_blank" rel="noopener"><button type="button" class="btn mTop2" style="background-color: #ffba07; color: #000000; font-size: 22px">View the white paper now!</button></a>
+    </div>
+    <div class="container" style="text-align: center; margin: 0.5em 0;">
+        <h3 id="alertMsg" style="display: none;">Request mail sent successfully!</h3>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mTop2">
+    <h2 style="text-align: center">Request a Fleet Enable demo and learn how you can deliver better.</h2>
+    <div style="border: 1px #607AD6 solid; border-radius: 4px; padding: 1em">
+    <form method="POST" id="requestDemoSchedule" action="#">
+    <div class="row">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Name</label>
+      <input type="text" class="form-control" id="inputName" name="contactName" value="" placeholder="Enter Name" required>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Email</label>
+      <input type="text" class="form-control" id="inputEmail" name="contactEmail" value="" placeholder="Enter Email" required>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Phone</label>
+      <input type="number" class="form-control" id="inputPhone" name="contactPhone" value="" placeholder="Enter Phone" required>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Title</label>
+      <input type="text" class="form-control" id="inputTitle" name="contactTitle" value="" placeholder="Enter Title" required>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Company</label>
+      <input type="text" class="form-control" id="inputCompany" name="contactCompany" value="" placeholder="Enter Company" required>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <label>Message</label>
+      <textarea rows="2" class="form-control" id="inputMessage" name="contactMessage" placeholder="Enter Message" required></textarea>
+    </div>
+  </div>
+      <div style="text-align: center; padding-top: 15px">
+        <button type="submit" name="submit" class="btn" style="background-color: #ffba07; color: #FFFFFF; cursor: 'pointer'" onclick="">Submit</button>
+      </div>
+      <input type="hidden" name="sender_type" value="fromStrategies">
+</div>
+</form>
+</div>
+    </div>
+    </div>
+    <div style="background-color: #212537; color: #FFFFFF; padding: 2rem 0px; margin-top: 30px; text-align: center">
+    <h5 style="font-size: 32px; font-weight: 400" class="font-poppins">
+    <a href="https://fleetenable.com"><img src="../assets/img/logo.png" width="250px" height="36px" alt="FleetEnable Logo"/></a>
+    </h5>
+    <p style="font-size: 18px; font-weight: 400"> #DeliverBetter </p>
+    <p style="margin-top: 30px">
+      <a href="https://www.facebook.com/fleetenable" target="_blank"><img
+        src="../assets/img/social/social_facebook.svg" width="32" height="32"
+        style="margin-left: 0rem" alt="Facebook" /></a>
+    <a href="https://www.linkedin.com/company/fleetenable/" target="_blank"><img
+        src="../assets/img/social/social_linkedin.svg" width="32" height="32"
+        style="margin-left: 2rem" alt="Linkedin" /></a>
+    <a href="https://twitter.com/fleet_enable" target="_blank"><img
+        src="../assets/img/social/social_twitter.svg" width="32" height="32"
+        style="margin-left: 2rem" alt="Twitter" /></a>
+    <a href="https://www.instagram.com/fleet_enable/" target="_blank"><img
+        src="../assets/img/social/social_instagram.png" width="32" height="32"
+        style="margin-left: 2rem" alt="Instagram" /></a>
+    </p>
+    </div>
+    <div class="container-fluid" style="background-color: #161616; color: #FFFFFF; padding: 1rem 0; text-align: center; font-weight: 400; font-size: 18px">
+    © 2022 <a href="https://imaginnovate.com" target="_blank" style="color: #FFFFFF; cursor: pointer">Imaginnovate INC</a>. All rights reserved.
+    </div>
+    </div>
+    </div>
+    </body>
+    </html>

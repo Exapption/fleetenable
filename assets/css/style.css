@@ -1,0 +1,2295 @@
+/*
+Theme Name: Fleet Enable
+Author: ImagInnovate
+*/
+
+.home{
+    background: #607ad6;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  
+  .home ::placeholder {
+      color: rgba(255, 255, 255);;
+      opacity: 1; /* Firefox */
+      font-weight: 300;
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: rgba(255, 255, 255);;
+     font-weight: 300;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+     color: rgba(255, 255, 255);;
+     font-weight: 300;
+    }
+  body {
+      font-family: 'Lato', sans-serif;
+  }
+  #activeMenu{
+    color: rgb(96, 122, 214);
+    font-weight: bold;
+}
+
+.menu-btn{
+    width: auto;
+    height: 42px;
+    background: #607AD6;
+    border: 2px solid #607AD6;
+    border-radius: 20px;
+    color: #FFFFFF;
+    }
+    
+    .menu .menu-btn{
+        padding:8px 
+    }
+    
+    .menu .menu-btn a{
+        color: #FFFFFF;
+    }
+    
+    .menu .current-menu-item a{
+        color: #607AD6;
+        font-weight: bold;
+    }
+  .font-poppins{
+      font-family: 'Poppins', sans-serif;;
+  }
+
+.wp-block-cover-image, .wp-block-cover .wp-block-cover__inner-container {
+  color: #000000 !important;
+}
+
+.wp-block-cover__inner-container .innerPages{
+  color: #FFFFFF !important;
+}
+  
+  header{
+      background:#FFFFFF;
+    color: #000000;
+      height: 70px;
+      filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+      font-size: 16px;
+  }
+  
+  .navbar{
+    padding: 0rem !important;
+  }
+  
+  .containerMargin10{
+    margin: 0% 10%;
+  }
+  .containerMargin15{
+    margin: 0% 15% !important;
+  }
+  .containerMargin25{
+    margin: 0% 25%;
+  }
+  
+  .containerPadding25{
+    padding: 0 25%;
+  }
+  
+  .containerPadding15{
+    padding: 0 10%;
+  }
+  
+  .containerPadding10{
+    padding: 0 10%;
+  }
+  
+  .containerPadding5{
+    padding: 0 5%;
+  }
+  
+  .containerPadding3{
+    padding: 0 3%;
+  }
+  
+  .containerPadding{
+    padding: 2% 5% 0 5%;
+  }
+  
+  .textColor{
+      color: #FFFFFF;
+  }
+  
+  .text-align-justify{
+    text-align: justify;
+  }
+  
+  .borderRight{
+    border-right: 0.8px #FFFFFF solid;
+    height: 250px;
+  }
+  
+  .menu-btn{
+    width: auto;
+    /* height: 0px !important; */
+    background: #607AD6;
+    border: 2px solid #607AD6;
+    border-radius: 20px;
+    color: #FFFFFF;
+    }
+    
+    .menu .menu-btn {
+      padding: 5px !important;
+      margin-top: 1rem;
+  }
+  
+  .custom-logo-link img{
+    margin-top: 0 !important;
+    margin-left: 0em;
+  }
+  
+  .modal-header .modal-close {
+    padding: 0rem;
+    margin: -1.5rem -2rem -1.5rem auto;
+  }
+  .modal-close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
+  .modal-close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+  }
+  button.modal-close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+  }
+  
+  .section-padding-m{
+    padding: 5px 10px 5px 10px;
+    height: 230px;
+    overflow: auto;
+  }
+  
+  .section-padding-s{
+    /* padding: 5px 10px 5px 10px; */
+    height: 400px;
+    overflow: auto;
+  }
+  
+  .section-padding-xs{
+    padding: 5px 10px 5px 10px;
+    height: 320px;
+    overflow: auto;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 5px;
+  }
+  
+  @media (min-width: 425px) {
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 11em;
+    }
+  }
+  
+  @media (min-width: 768px) {
+      .jumboBanner {
+          min-height: 700px;
+      padding-bottom: 1rem;
+      margin-bottom: -4em;
+      }
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 14em;
+    }
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 600px;
+    }
+    .jumboBannerInner1{
+      margin-top: -5em;
+      min-height: 600px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -10rem 0 0 1.5rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 1.5rem;
+    }
+  
+    h1, .h1{
+      font-size: 35px;
+    }
+  
+    .jumboBannerInner p {
+      font-size: 1.2rem;
+    }
+    .jumboBannerInner1 p{
+      font-size: 1.2rem;
+    }
+    .pBig{
+      font-size: 18px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+  
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 19px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 21px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 140%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #000000;
+    }
+  
+    .menu .nav-item {
+      font-weight: 500;
+      font-size: 18px;
+    }
+    
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-family: Poppins;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 20%;
+    }
+    .dl, ol, ul {
+      margin-left: -3em;
+      margin-right: 0em;
+  }
+  .arrowIcon{
+    width: 30px;
+    height: 30px;
+    margin-top: 0.4em;
+  }
+  .mTop-6{
+      margin-top: -5em;
+  }
+  }
+  
+  @media (min-width: 992px) {
+      .jumboBanner {
+          min-height: 700px;
+      padding-bottom: 1rem;
+      margin-bottom: -3em;
+      }
+  
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 600px;
+    }
+    .jumboBannerInner1{
+      margin-top: -5em;
+      min-height: 600px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -10rem 0 0 1.5rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 1.5rem;
+    }
+  
+    h1, .h1{
+      font-size: 35px;
+    }
+  
+    .jumboBannerInner p {
+      font-size: 1.2rem;
+    }
+    .jumboBannerInner1 p{
+      font-size: 1.2rem;
+    }
+    .pBig{
+      font-size: 18px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 29px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 19px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 140%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #000000;
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-family: Poppins;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 20%;
+    }
+    .dl, ol, ul {
+      margin-right: 0em;
+  }
+  .arrowIcon{
+    width: 30px;
+    height: 30px;
+    margin-top: 0.4em;
+  }
+  .mTop-6{
+      margin-top: -5em;
+  }
+  
+  }
+  
+  @media (min-width: 1024px) {
+      .jumboBanner {
+          min-height: 800px;
+      padding-top: 0rem;
+      margin-bottom: -5em;
+      }
+    .jumboBannerInner{
+      margin-top:-5em;
+      min-height: 700px;
+    }
+    .jumboBannerInner1{
+      margin-top: -5em;
+      min-height: 600px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -15rem 0 0 1.5rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 1.5rem;
+    }
+  
+    h1, .h1{
+      font-size: 35px;
+    }
+  
+    .jumboBannerInner p {
+      font-size: 1.2rem;
+    }
+    .jumboBannerInner1 p{
+      font-size: 1.2rem;
+    }
+    .pBig{
+      font-size: 20px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 32px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 22px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 200%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 17px;
+      line-height: 140%;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: #000000;
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-family: Poppins;
+      font-style: italic;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 16px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 22%;
+    }
+    .dl, ol, ul {
+      margin-right: -2em;
+  }
+  .arrowIcon{
+    width: 30px;
+    height: 30px;
+    margin-top: 0.4em;
+  }
+  .mTop-6{
+      margin-top: -6em;
+  }
+    
+  }
+  
+  @media (min-width: 1100px) {
+    .dl, ol, ul {
+      margin-right: -8em;
+    }
+  }
+  
+  @media (min-width: 1199px) {
+    .jumboBanner {
+          min-height: 900px;
+      padding-top: 0rem;
+      margin-bottom: -5em;
+      }
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 18em;
+    }
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 800px;
+    }
+    .jumboBannerInner1{
+      margin-top:-5em;
+      min-height: 700px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -15rem 0 0 4rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 4rem;
+    }
+  
+    h1, .h1{
+      font-size: 45px;
+    }
+  
+    /*.jumboBannerInner p {
+      font-size: 1.5rem;
+    }*/
+    /*..jumboBannerInner1 p{
+      font-size: 1.5rem;
+    }*/
+    .pBig{
+      font-size: 24px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 30px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 35px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 200%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: #000000;
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 23%;
+    }
+    dl, ol, ul {
+      margin-right: -9em;
+  }
+  .resourceStyle {
+    margin: 0 5em 0 5em
+  }
+  .arrowIcon{
+    width: 40px;
+    height: 40px;
+    margin-top: 0.4em;
+  }
+  .mTop-6{
+      margin-top: -6em;
+  }
+  
+  }
+  
+  @media (min-width: 1366px) {
+      .jumboBanner {
+          min-height: 1000px;
+      padding-top: 0rem;
+      margin-bottom: -5em;
+      }
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 20em;
+    }
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 900px;
+    }
+    .jumboBannerInner1{
+      margin-top:-5em;
+      min-height: 800px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -15rem 0 0 4rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 4rem;
+    }
+  
+  
+    /*.jumboBannerInner p {
+      font-size: 1.5rem;
+    }*/
+    /*..jumboBannerInner1 p{
+      font-size: 1.5rem;
+    }*/
+    .pBig{
+      font-size: 28px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 30px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 45px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 200%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: #000000;
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 28%;
+    }
+    dl, ol, ul {
+      margin-right: -20em !important;
+  }
+  .resourceStyle {
+    margin: 0 6em 0 5em
+  }
+  .arrowIcon{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.6em;
+  }
+  .mTop-6{
+      margin-top: -7em;
+  }
+  
+  }
+  
+  @media (min-width: 1440px) {
+    dl, ol, ul {
+      margin-right: -25em !important;
+  }
+  .resourceStyle {
+    margin: 0 6em 0 5em
+  }
+  .arrowIcon{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.6em;
+  }
+  .mTop-6{
+      margin-top: -7em;
+  }
+  }
+  
+  @media (min-width: 1920px) {
+    body{
+      margin: 0 10%;
+    }
+      .jumboBanner {
+          min-height: 1100px;
+      padding-top: 10rem;
+      margin-bottom: -5em;
+      }
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 35em;
+    }
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 1000px;
+    }
+    .jumboBannerInner1{
+      margin-top:-5em;
+      min-height: 1000px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -15rem 0 0 4rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 4rem;
+    }
+  
+    h1, .h1{
+      font-size: 60px;
+    }
+  
+    .jumboBannerInner p {
+      font-size: 1.8rem;
+    }
+    .jumboBannerInner1 p{
+      font-size: 1.8rem;
+    }
+    .pBig{
+      font-size: 30px;
+    }
+    .jumboBanner .title{
+      font-style: normal;
+      font-weight: bolder;
+      font-size: 34px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+    .jumboBanner p{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .heading{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 40px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .jumboBanner .psmall{
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 200;
+      font-size: 30px;
+      line-height: 140%;
+      text-align:center;
+      color: #000000;
+    }
+    .title-medium{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      color: #ffba07;
+    }
+    .title-small{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 28px;
+      line-height: 200%;
+    }
+  
+    .textAlign{
+      text-align: center;
+    }
+    .letterSpacing{ 
+      letter-spacing: 0.02em;
+    }
+    .section1-p{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 140%;
+      text-align: center;
+    }
+    .section-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      line-height: 140%;
+    }
+  
+    .innerBox-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+    }
+    
+    .h-medium{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 45px;
+      line-height: 140%;
+      text-align: center;
+    }
+  
+    .icon-title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 140%;
+    }
+  
+    .icon-content{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+    }
+  
+    .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+  
+    .home .footer-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #FFFFFF;
+    }
+    
+    .foter-heading{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 48px;
+      line-height: 140%;
+      text-align: center;
+      color: #000000;
+    }
+  
+    h1, .h1{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 55px;
+      line-height: 200%;
+    }
+  
+    .innerParagraph{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      padding-left: 5px;
+    }
+  
+    .innerPageSection{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  
+    .innerPageSection2{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 140%;
+      color: #000000;
+    }
+    .menu li a {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      color: #000000;
+    }
+    .team-title{
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 140%;
+      text-align: center;
+      color: rgba(0, 0, 0, 0.6);
+    }
+    .testimonial-content{
+      font-style: italic;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 38px;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #3F3D56;
+    }
+    .client-title{
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.05em;
+      color: #000000;
+    }
+    .client-company{
+      font-style: normal;
+      font-weight: 200;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      color: #000000;
+    }
+    .containerPadding28{
+      padding: 0 28%;
+    }
+    .dl, ol, ul {
+      margin-right: -30em !important;
+  }
+  
+  .resourceStyle {
+    margin: 0 4em 0 3em
+  }
+  
+  .arrowIcon{
+    width: 50px;
+    height: 50px;
+    margin-top: 0.6em;
+  }
+  
+  .mTop-6{
+      margin-top: -7em;
+  }
+    
+  }
+  
+  @media (min-width: 2560px) {
+    body{
+      margin: 0 10%;
+    }
+      .jumboBanner {
+          min-height: 1300px;
+      padding-top: 7rem;
+      margin-bottom: -3em;
+      }
+    .jumboBanner .wp-block-columns{
+      margin-bottom: 40em;
+    }
+    .jumboBannerInner{
+  margin-top:-5em;
+      min-height: 1250px;
+    }
+    .jumboBannerInner1{
+      margin-top: -5em;
+      min-height: 1100px;
+    }
+    .jumboBannerInner .wp-block-cover__inner-container{
+      margin: -15rem 0 0 4rem;
+    }
+  
+    .jumboBannerInner1 .wp-block-cover__inner-container{
+      margin: 0rem 0 0 4rem;
+    }
+  
+    .jumboBannerInner p {
+      font-size: 2.5rem;
+    }
+    .jumboBannerInner1 p{
+      font-size: 2.5rem;
+    }
+    dl, ol, ul {
+      margin-right: -62em !important;
+  }
+  .resourceStyle {
+    margin: 0 4em 0 3em
+  }
+  }
+  
+  .row{
+    margin-left: -15px !important;
+    margin-right: 0px !important;
+  }
+  
+  .section-bg-color-1{
+    background-color: #F5F7FA;
+  }
+  
+  .section-bg-color-2{
+    background-color: #607AD6;
+  }
+  
+  .section-padding{
+    padding: 10px;
+  }
+  
+  .box-padding{
+    padding-right: 0px;
+  }
+  
+  .mBottom1{
+    margin-bottom: -3rem;
+  }
+  
+  .menu .current-menu-item {
+  color: #607AD6;
+  }
+  
+  .contact-section {
+  background: #607AD6;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px;
+  }
+  .pTop1{
+    padding-top: 1em !important;
+  }
+  .pTop3{
+      padding-top: 3em;
+  }
+  
+  .pTop-3{
+      padding-top: -3em;
+  }
+  
+  .pLeft10{
+      padding-left: 10%;
+  }
+  
+  .pLeft15{
+      padding-left: 15%;
+  }
+  
+  .pLeft20{
+      padding-left: 20%;
+  }
+  
+  .pLeft30{
+      padding-left: 30%;
+  }
+  
+  .pRight5{
+      padding-right: 5%;
+  }
+  
+  .pRight10{
+      padding-right: 10%;
+  }
+  
+  .pRight20{
+      padding-right: 20%;
+  }
+  
+  .fontWeight100{
+      font-weight: 100;
+  }
+  
+  .fontWeight200{
+      font-weight: 200;
+  }
+  
+  .fontWeight300{
+      font-weight: 300;
+  }
+  
+  .fontWeight400{
+      font-weight: 400;
+  }
+  
+  .fontWeight500{
+      font-weight: 500;
+  }
+  
+  .fontWeight600{
+      font-weight: 500;
+  }
+  
+  .fontWeight700{
+      font-weight: 700;
+  }
+  
+  .mTop1{
+      margin-top: 0.5em;
+  }
+  
+  .mTop2{
+      margin-top: 2em;
+  }
+  
+  .mTop3{
+      margin-top: 3em;
+  }
+  
+  .mTop4{
+      margin-top: 4em;
+  }
+  
+  .mTop5{
+      margin-top: 5em;
+  }
+  
+  .mBottom2{
+    margin-bottom: 2em;
+  }
+  
+  .mBottom10{
+    margin-bottom: 10em;
+  }
+  .mBottom15{
+    margin-bottom: 15px;
+  }
+  
+  .mTop-25{
+      margin-top: -25em;
+  }
+  
+  .mTop-35{
+      margin-top: -35vh;
+  }
+  
+  /* .mTop-6{
+    margin-top: -6em;
+  } */
+  
+  .mTop-5{
+      margin-top: -5em;
+  }
+  .mTop-4{
+      margin-top: -4em;
+  }
+  
+  .mTop-3{
+      margin-top: -3em;
+  }
+  
+  .mTop-2{
+      margin-top: -2em;
+  }
+  .mTopn-1{
+      margin-top: -1em;  
+  }
+  .mTop-1{
+      margin-top: -1.3em;
+  }
+  .mLeft-2{
+      margin-left: -2em;
+  }
+  .mLeft-5{
+      margin-left: -5em;
+  }
+  .pLeft-4{
+      padding-left: -4em;
+  }
+  
+  .mTopNegative{
+    margin-top: -3%;
+  }
+  
+  .textShadow{
+      text-shadow: 0 4px 4px rgba(0,0,0,.25);
+  }
+  
+  .zindex {
+      z-index: 1000;
+  }
+  
+  .img-res {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  
+  
+  
+  .menu li {
+      float: left;
+      text-align: right;
+      margin: 10px 6px;
+      padding-top: 15px;
+  }
+  
+  .menu-item{
+      list-style: none;
+  }
+  
+  
+  .intro-button {
+      background-color: #ffba07;
+      filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));
+      border: 3px solid #ffba07;
+      border-radius: 20px;
+      width: 220px;
+      font-size: 20px;
+      line-height: 140%;
+      color: #000;
+      margin-top: 15px;
+      padding: 5px;
+      cursor:pointer;
+  }
+  
+  .backgroundPadding{
+      padding: 0.5em 2.375em;
+  }
+  
+  
+  .btn-home{
+      background-color: #ffba07;
+    color: #000000;
+      /* filter: drop-shadow(0 4px 4px rgba(0,0,0,.25));*/
+      border: 3px solid #ffba07;
+      border-radius: 30px;
+      width: 247px;
+    height: 48px;
+      font-size: 20px;
+    font-weight: 400;
+    padding: 8px 0px;
+    cursor:pointer;
+  }
+  
+  .customInput{
+      width: 60%;
+      background: rgba(134,138,142,.3);
+      border: 1px solid #fff;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      border-radius: 15px;
+      font-family: Lato;
+      font-size: 18px;
+      line-height: 140%;
+      color: #fff;
+      padding: 15px 15px 15px 30px;
+      margin: 15px 0px;
+  }
+  
+  ::placeholder {
+      color: rgba(0, 0, 0, 0.5);;
+      opacity: 1; /* Firefox */
+      font-weight: 300;
+    }
+    
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+     color: rgba(0, 0, 0, 0.5);;
+     font-weight: 300;
+    }
+    
+    ::-ms-input-placeholder { /* Microsoft Edge */
+     color: rgba(0, 0, 0, 0.5);;
+     font-weight: 300;
+    }
+  
+    textarea:focus, input:focus{
+      outline: none;
+  }
+  
+  .footer-section{
+      background-color: #161616; color: #FFFFFF; padding: 2rem 0px
+  }
+  
+  #scrollToTopBtn {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    color: #607ad6;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 48px;
+    width: 48px;
+  }
+  
+  .shipperBox{
+    background-color: #607ad6;
+  }
+  .shipperBox p{
+    color: #FFFFFF;
+  }
+  .iconT{
+    display: inline-block;
+      width: 29px;
+      height: 26px;
+      background-size: cover;
+  }
+  .icon-linkedin{
+    background-image: url(../img/Group-410.png);
+  }
+  .icon-linkedin:hover,
+  .icon-linkedin:focus{
+    background-image: url(../img/linkedin-hover.png);
+  }
+  button:focus {
+    outline: 1px dotted;
+    outline: 0px auto -webkit-focus-ring-color !important;
+  }
+  .contact-section p a{
+    color: #FFFFFF;
+  }
+  
+  .readMore {
+    background-color: #607ad6;
+    color: #FFF;
+    border: 1px #607ad6 solid;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .title-medium {
+    margin-top: 1em;
+    line-height: 90%;
+  }
+  
+  .ready-to-upgrade{
+    margin-top: 0px;
+  }
+  
+  .carrierSliderArrows{
+    padding-top: 20%;
+  }
+  
+  .customerSliderArrows{
+    padding-top: 50%;
+  }
+
+  .footerForm {
+    padding: 0 15%;
+  }
+  .aboutBorderRight {
+    border-right: 0.8px solid #000000;
+  }
+  
+  .bg-light {
+    background-color: #ffffff !important;
+  }
+  
+  .ms-auto {
+    margin-left: auto!important;
+  }
+  
+  .navbar-nav{
+    padding-left: 25px;
+  }
+  
+  .menu .menu-btn {
+    margin-top: 0.5em;
+    padding: 4px 8px !important;
+    font-size: 18px;
+  }
+  
+  @media (min-width: 1199px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-top: 0.5em;
+  }
+  .navbar-expand-lg .navbar-nav .marginRight {
+    margin-right: 10px;
+  }
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000000;
+  }
+  
+  .navbar-toggler:not(:disabled):not(.disabled) {
+      margin-right: 10px;
+  }
+  
+  @media (min-width: 600px) and (max-width: 781px){
+  .wp-block-column:not(:only-child) {
+      flex-basis: auto !important;
+      flex-grow: 0;
+  }
+  } 
+  
+  @media (min-width: 320px) and (max-width: 475px){
+    .wp-block-cover, .wp-block-cover-image {
+        margin-top: -1em;
+    }
+    .title-medium {
+      color: #ffba07;
+      font-size: 20px;
+    }
+    .section-padding-s {
+      height: auto !important;
+      margin-top: 10px;
+    }
+    .section-padding-m {
+      height: auto !important;
+    }
+    .borderRight {
+      border-right: 0px;
+    }
+    .ready-to-upgrade{
+      margin-top: -12em;
+    }
+    .carrierSliderArrows{
+      padding: 0%;
+    }
+    .request-heading{
+      margin-top: 2em;
+    }
+    .footerFormHome{
+      margin-top: 20em;
+    }
+    .btn-home {
+      width: 160px;
+    }
+    .mTopNegative {
+      margin-top: -46%;
+    }
+    .intro-button {
+      width: 103px;
+      font-size: 11px;
+      margin-top: 0px;
+    }
+    .h1, h1 {
+    font-size: 20px;
+    }
+    .customerSliderArrows{
+      padding: 5%;
+    }
+    .mySlides {
+      padding: 10px;
+  }
+  .prev, .next {
+    padding: 16px 2% !important;
+  }
+  .aboutBorderRight {
+    border-right: 0;
+  }
+  .psmall{
+    font-size: 0.8rem;
+  }
+  }
+  
+  @media (min-width: 425px) and (max-width: 475px){
+    .wp-block-cover, .wp-block-cover-image {
+      padding-top: 10em;
+  }
+  }
+  
+  @media (min-width: 500px) and (max-width: 545px){
+    .wp-block-cover, .wp-block-cover-image {
+        margin-top: -1em;
+    }
+    .intro-button {
+      width: 103px;
+      font-size: 11px;
+      margin-top: 0px;
+    }
+    .h1, h1 {
+    font-size: 20px;
+    }
+    .borderRight {
+      border-right: 0px;
+    }
+    .customerSliderArrows{
+      padding: 5%;
+    }
+    .mySlides {
+      padding: 10px;
+  }
+  .prev, .next {
+    padding: 16px 2% !important;
+  }
+  .aboutBorderRight {
+    border-right: 0;
+  }
+  }
+  @media (min-width: 1199px) {
+  .navbar-expand-lg {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+      flex-flow: row nowrap;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+  }
+  }

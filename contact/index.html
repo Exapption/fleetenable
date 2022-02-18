@@ -205,7 +205,13 @@
                 };
                 emailjs.send('service_3xtujar','template_fbcrd09', templateParams)
                     .then(function() {
-                        
+                      $("#myModal").modal('show');
+                        //$("#responseType").html('<i class="far fa-check-circle fa-3x" style="color: green"></i>');
+                        $("#msg").html('Request sent successfully.');
+                        $("#firstName").val('');
+                        $("#lastName").val('');
+                        $("#message").val('');
+                        $("#email").val('');
                     }, function(error) {
                         console.log('FAILED...', error);
                     });

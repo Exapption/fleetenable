@@ -247,6 +247,10 @@
         alert(email);
       }
     }
+
+    function closeMyModal(){
+            $("#myModal").modal('hide');
+        }
   </script>
 
   <div class="container-fluid"
@@ -358,7 +362,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <button type="button" class="close" onClick = "closeMyModal()" data-dismiss="modal">&times;</button>
       </div>
       <div class="modal-body" style="text-align: center">
         <div id="responseType"></div>

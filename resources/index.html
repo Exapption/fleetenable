@@ -45,13 +45,19 @@
   <link rel="apple-touch-icon" href="../assets/img/favicon.png" />
   <meta name="msapplication-TileImage" content="../assets/img/favicon.png" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_HKLZGDusYz3BMvd5kclV9");
+        })();
+    </script>
 </head>
 
 <body class="page-template-default page page-id-1566 wp-custom-logo">
   <header class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a href="./"><img width="235" height="71" src="../assets/img/fleetlogo.svg" class="custom-logo" alt="FleetEnable Logo" /></a>
+        <a href="../"><img width="235" height="71" src="../assets/img/fleetlogo.svg" class="custom-logo" alt="FleetEnable Logo" /></a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -295,7 +301,6 @@
     <script type='text/javascript' src='../assets/vendor/bootstrap/js/script.js' id='customjs-js'></script>
     <script>
       $(document).ready(function () {
-        $("#success-alert").hide();
 
         $("#requestDemoModal").on('submit', function (event) {
           event.preventDefault();

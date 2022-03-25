@@ -119,18 +119,54 @@
             padding: 0.3em 0.3em 0 0.3em;
             text-align: center;
             }
-            .pFont{
+
+            @media (min-width: 320px) {
+                .pFont{
+                font-size: 12px;
+                padding: 0.2em;
+                }
+                .imgWidth{
+                    width: 100px;
+                }
+                .innerDivMargin{
+                    margin: 0;
+                }
+            }
+
+            @media (min-width: 425px) {
+                .pFont{
+                font-size: 12px;
+                padding: 0.2em;
+                }
+                .imgWidth{
+                    width: 100px;
+                }
+                .innerDivMargin{
+                    margin: 0;
+                }
+            }
+
+            @media (min-width: 1024px) {
+                .pFont{
                 font-size: 16px;
                 padding: 0.5em;
+                }
+                .imgWidth{
+                    width: 200px;
+                }
+                .innerDivMargin{
+                    margin: 0.3em 0.3em 0 0.3em;
+                }
             }
+            
         </style>
         <div style="float: right;">
             <div id="sticky-div">
-                <img src="./assets/img/ECA_Logo.png" width="200px">
-                <div class="font-weight-bold" style="background-color: #ED1D23; color: #FFFFFF; font-family: 'Lato'; margin: 0.3em 0.3em 0 0.3em">
+                <img src="./assets/img/ECA_Logo.png" class="imgWidth">
+                <div class="font-weight-bold innerDivMargin" style="background-color: #ED1D23; color: #FFFFFF; font-family: 'Lato';">
                     <p class="pFont">Marketplace 2022<br>April 11-13<br>Tucson, AZ</p>
                 </div>
-                <p class="font-weight-bold" style="font-size: 16px">Please stop by booth 313.</p>
+                <p class="font-weight-bold pFont">Please stop by booth 313.</p>
             </div>
         </div>
         <div class="wp-block-cover jumboBanner mTop-6" style="background-color:#607ad6">
